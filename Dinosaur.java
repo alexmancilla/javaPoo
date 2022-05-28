@@ -8,7 +8,7 @@ public class Dinosaur {
   public static void main(String[] args) {
     // program tasks
     int dinoEnd = -2000000;
-    int actual = 2020;
+    int actual = 2022;
     boolean age = dinoEnd > actual;
     Dinosaur triceratops = new Dinosaur(age);
     System.out.println("The statment: Triceratops are alive today is -> " + triceratops.isExtinct);
